@@ -10,7 +10,8 @@
 ## source /c/Users/Windows10/AppData/Local/pypoetry/Cache/virtualenvs/info-segugio-assistant-bdREUtaS-py3.13/Scripts/activate
 
 - LANCIARE L'APPLICATIVO(src perché è il percorso dove poetry mi ha creato il progetto )
-## chainlit run src/info_segugio_assistant/__init__.py -w
+- Aggiungendo -w alla fine del comando, chainlit si ricarica automaticamente ad ogni modifica
+## chainlit run src/info_segugio_assistant/__init__.py -w 
 
 - INSTALLARE LA LIBRERIA OPENAI
 ## poetry add openai
