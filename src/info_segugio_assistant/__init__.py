@@ -1,7 +1,13 @@
 # inizializzare il sistema
 # importa la libreria Chainlit con nome abbreviato 'cl'
-
 import chainlit as cl
+
+# importa la libreria OpenAI per interagire con il modello di intelligenza artificiale
+from openai import OpenAI
+
+#inizializzazione del Client OpenAI con le configurazioni 
+client = OpenAI(base_url=Config.AI_API_URL, api_key=Config.AI_API_KEY)
+
 
 # con questo decoratore diciamo che ogni volta che viene ricevuto un messaggio dall'interfaccia, viene chiamata la funzione main
 # in message metti le informazioni che l'utente ha scritto 

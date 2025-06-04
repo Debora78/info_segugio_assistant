@@ -11,3 +11,6 @@
 
 - LANCIARE L'APPLICATIVO(src perché è il percorso dove poetry mi ha creato il progetto )
 ## chainlit run src/info_segugio_assistant/__init__.py -w
+
+- INSTALLARE LA LIBRERIA OPENAI
+## poetry add openai
