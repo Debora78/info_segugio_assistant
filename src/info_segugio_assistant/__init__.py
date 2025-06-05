@@ -1,6 +1,6 @@
 # inizializzare il sistema
 
-# importa la libreria Chainlit con nome abbreviato 'cl'
+# importa la libreria Chainlit con nome  abbreviato 'cl'
 import chainlit as cl
 
 import os
