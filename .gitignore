@@ -1,0 +1,13 @@
+# Ignora le variabili d'ambiente locali
+.env
+
+# Ignora le cartelle di cache di Python
+__pycache__/
+*.pyc
+
+# Ignora le cartelle degli ambienti virtuali di Poetry
+.venv/
+.poetry/
+
+# Ignora i file di log di Chainlit (se ne hai)
+*.log

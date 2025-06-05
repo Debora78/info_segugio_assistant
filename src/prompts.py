@@ -26,6 +26,14 @@ Per creare un NUOVO riassunto:
 2. Organizza le informazioni in modo logico.
 3. Mantieni il focus sull'argomento principale.
 4. Usa un linguaggio chiaro e preciso.
+
+REGOLE IMPORTANTI:
+- Inizia subito con il contenuto
+- Mantieni un tono oggettivo
+- Evita meta-commenti o spiegazioni del processo
+- Non citare le fonti nel testo
+- Non aggiungere bibliografia
+- Non usare tag o formattazioni speciali
 """
 
 reflection_instructions = """
@@ -34,7 +42,7 @@ Sei un riceratore che analizza un riassunto sull'argomento: {research_topic}
 I tuoi compiti sono:
 1. Identificare quali informazioni mancano
 2. Creare una domanda per approfondire
-3. concentrarti su dettagli tecnici o tendenze non coperte
+3. Concentrarti su dettagli tecnici o tendenze non coperte
 
 La domanda deve essere autonoma e contenere tutto il contenuto necessario.
 
@@ -43,4 +51,4 @@ Rispondi con un oggetto JSON:
     "lacuna_conoscenza": "Cosa manca nel riassunto attuale",
     "domanda_approfondimento": "La domanda per la prossima ricerca"
 }}
-""" 
+"""
